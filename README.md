@@ -4,7 +4,7 @@ Submitted by: **Alessandra Newman**
 
 About this web app: **Car personalizer. Create and save custom car builds.**
 
-Time spent: **X** hours
+Time spent: **6** hours
 
 ## Required Features
 
@@ -40,7 +40,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/alexbnewman/web103_unit4_project/blob/main/p4.gif?raw=true' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ScreenToGIF
