@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState, useEffect } from 'react'
 import { useRoutes } from 'react-router-dom'
 import Navigation from './components/Navigation'
 import ViewCars from './pages/ViewCars'
@@ -8,17 +9,22 @@ import CarDetails from './pages/CarDetails'
 import './App.css'
 
 const App = () => {
+  const [cars, setCars] = useState([]);
+
+
+  
+
   let element = useRoutes([
     {
       path: '/',
-      element: <CreateCar title='BOLT BUCKET | Customize' />
+      element: <ViewCars />
     },
     {
-      path:'/customcars',
-      element: <ViewCars title='BOLT BUCKET | Custom Cars' />
+      path:'/new',
+      element: <CreateCar title='BOLT BUCKET | Customize Cars' />
     },
     {
-      path: '/customcars/:id',
+      path: '/:id',
       element: <CarDetails title='BOLT BUCKET | View' />
     },
     {
